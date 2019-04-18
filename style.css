@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    background-color: #B1AA9D;
+    color: black
+    
+}
+p {
+    margin: 0;
+}
+li {
+    display: inline;
+}
+#content {
+
+    
+    
+    width: 80%;
+    margin: 0  auto;
+    height: 2000px;
+   border-right: 5px solid gray;
+   border-left: 5px solid gray;
+   background-color: #FFFFFF;
+   
+
+    
+}
+#logo {
+    position: absolute;
+}
+#header-right {
+    float: right;
+    padding-right: 2%;
+    
+    
+}
+#header-form {
+    float: right;
+    width: 600px;
+  
+}
+[type="text"] {
+    width: 80%;
+    height: 25px;
+    color: green;
+    padding-left: 10px;
+}
+button {
+    width: 15%;
+    height: 30px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+ a {
+    color: red;
+}
+::placeholder {
+    color:green;
+    opacity: 1; /* Firefox */
+    /* padding: 10px; */
+  }
+  #after-header-one-div {
+     position: relative;
+     top: 150px;
+     background: brown;
+     height: 200px;
+     background-image: url(images/pattern.jpg);
+
+ }
+ #header-two {
+    position: relative;
+    top: 140px;
+ }
+ .nav-two-li {
+     background: #C20000;
+     border-radius: 10px;
+    
+     color: white;
+     
+ }
+ #nav-three-list {
+     background: #EE8C03;
+     color: white;
+ }
+ .nav-three-li {
+     color: white;
+ }
+ .nav-three-li, .nav-two-li {
+    text-decoration: none;
+    padding: 5px;
+    margin: 3px;
+    font-size: 1.2em;
+
+ }
+ main {
+     position: relative;
+     top: 13%;
+ }
+h3 {
+    background: #F3F3EB;
+    height: 1.5em;
+}
+table {
+    float: right;
+    position: relative;
+    right: 40%;
+    background: #FFFAE6;
+  
+}
+th {
+    font-size: 1.5em;
+}
+   
+th, td {
+    padding: 5px;
+}
+#description {
+    float: right;
+    width: 40%;
+    position: relative;
+    top: 70px;
+}
+.fa  {
+    color: red;
+}
+span {
+    float: right;
+}
+#Ingredients, #comment-section, #cooking-direction {
+   
+     position: relative;
+    top: 100px; 
+    width: 40%;
+    margin: 2px auto;
+    border: 2px solid gray;
+}
+.block-li {
+    display: block;
+}
+ #sort {
+     float: right;
+     position: relative;
+     bottom: 40px;
+     left: 45px;
+ }
+ #sort-title {
+     position: relative;
+     bottom: 40px;
+     right: 80px;
+     float: right;
+ }
+ #a {
+     list-style-type: lower-latin;
+ }
