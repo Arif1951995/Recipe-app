@@ -4,12 +4,14 @@ body {
     color: black
     
 }
-p {
+ p {
     margin: 0;
 }
-li {
+
+/* li {
     display: inline;
-}
+} */
+
 #content {
 
     
@@ -55,8 +57,8 @@ button {
 }
 ::placeholder {
     color:green;
-    opacity: 1; /* Firefox */
-    /* padding: 10px; */
+    opacity: 1; 
+     padding: 10px; 
   }
   #after-header-one-div {
      position: relative;
@@ -133,9 +135,9 @@ span {
     margin: 2px auto;
     border: 2px solid gray;
 }
-.block-li {
+/* .block-li {
     display: block;
-}
+} */
  #sort {
      float: right;
      position: relative;
@@ -148,6 +150,13 @@ span {
      right: 80px;
      float: right;
  }
- #a {
-     list-style-type: lower-latin;
+ 
+ .nav-one-li, .nav-two-li, .nav-three-li {
+    display: inline;
+ }
+ a {
+     color: white;
+ }
+ .nav-one-li {
+     color: red;
  }
