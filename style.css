@@ -127,7 +127,7 @@ th, td {
 span {
     float: right;
 }
-#Ingredients, #comment-section, #cooking-direction {
+#Ingredients, #comment-section,  #cooking-direction {
    
      position: relative;
     top: 100px; 
@@ -159,4 +159,7 @@ span {
  }
  .nav-one-li {
      color: red;
+ }
+ #comment-section {
+     margin:  5px;
  }
